@@ -6,7 +6,7 @@ setup(name='Restcomm_Python_SDk',
     # the version across setup.py and the project code, see
     #  https://packaging.python.org/en/latest/single_source_version.html
 
-      version='1.3.1',
+      version='1.3.2',
       description='Restcomm SDk for Python user',
       long_description='Restcomm_Python_SDk is a module for using the *Restcomm Rest API*. This Documentation provides the basic information on the usage of this SDk in performing various operations offered by the Restcomm-Rest APIs. The Restcomm REST API allows you to query meta-data about your account, phone numbers, calls, text messages, and recordings. You can also do some communications control like initiate outbound calls and send text messages.',
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -27,13 +27,16 @@ setup(name='Restcomm_Python_SDk',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
       ],
 
     # What does your project relate to?
 
       keywords='Restcomm SDk for python',
     # The project's main homepage.
-      url='https://github.com/mdsharique/restcomm-sdk-python',
+      url='https://github.com/RestComm/restcomm-sdk-python',
     # Author details
       author='MD Sharique',
       author_email='nukles1.07@gmail.com',
@@ -47,7 +50,8 @@ setup(name='Restcomm_Python_SDk',
 
       packages=['Restcomm_Python_SDk'],
       install_requires=[
-          'requests', 'vcr',
+          'requests', 
+          'vcrpy',
       ],
       include_package_data=True,
       zip_safe=False)
