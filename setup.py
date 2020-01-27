@@ -36,7 +36,7 @@ setup(name='Restcomm_Python_SDk',
 
       keywords='Restcomm SDk for python',
     # The project's main homepage.
-      url='https://github.com/RestComm/restcomm-sdk-python',
+      url='https://github.com/jackdown/restcomm-sdk-python',
     # Author details
       author='MD Sharique',
       author_email='nukles1.07@gmail.com',
